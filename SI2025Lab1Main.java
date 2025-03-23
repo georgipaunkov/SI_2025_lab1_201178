@@ -66,6 +66,8 @@ class TaskManager {
     }
 
     // 2. Find all completed tasks
+
+
     public List<Task> getCompletedTasks() {
         List<Task> completedTasks = new ArrayList<>();
         for (Task task : tasks) {
