@@ -1,0 +1,21 @@
+*   65aa1fb Merge branch '3-list-tasks-sorted-by-name' Merge with master
+|\  
+| * 8394e06 Implemented listTasksSortedByName
+| | * 3ba7d56 WIP on master: e064d90 Merge pull request #11 from georgipaunkov/2-find-all-completed-tasks
+| |/| 
+|/| | 
+| | * b121551 index on master: e064d90 Merge pull request #11 from georgipaunkov/2-find-all-completed-tasks
+| |/  
+|/|   
+* |   e064d90 Merge pull request #11 from georgipaunkov/2-find-all-completed-tasks
+|\ \  
+| * | f36e8ad Implemented findAllCompletedTasks method
+| |/  
+* |   01bdd6b Merge pull request #10 from georgipaunkov/1-remove-a-task-by-name
+|\ \  
+| |/  
+|/|   
+| * 8b0cbdd Implemented removeTask method
+|/  
+* 7f2b41d Add starter code
+* 0ae60db Initial commit

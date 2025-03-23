@@ -1,0 +1,57 @@
+1. gh repo create SI_2025_lab1_201178 --private (kreiranje na privatna repositorija remotely)
+
+2. mkdir SI_2025_lab1_201178 (pravime local directory)
+
+3. git init (inicializacija na git vo SI_2025_lab1_201178)
+
+4. git remote add origin https://github.com/georgipaunkov/SI_2025_lab1_201178.git ( povrzuvanje na repos)
+
+5. git add README.md
+
+6. git commit -m "Initial commit"
+
+7. git add SI2025Lab1Main.java
+
+8. git commit -m "Add starter code"
+
+9. git push origin master
+
+---------------DEL 2---------------------
+
+1. git fetch origin
+
+2. git checkout 1-remove-a-task-by-name
+
+3. nano SI2025Lab1Main.java
+
+4. git add SI2025Lab1Main.java
+
+5. git commit -m "Implemented removeTask method"
+
+6. git merge 1-remove-a-task-by-name
+
+7. git push origin 1-remove-a-task-by-name
+
+8. git pull origin 1-remove-a-task-by-name 
+
+///Istite komandi i za drugite 2 issues
+
+9. git checkout master
+
+10. git pull origin master
+
+11. git checkout 3-list-tasks-sorted-by-name
+
+12. git checkout master
+
+13. git merge 3-list-tasks-sorted-by-name
+
+14. git pull origin master
+
+15. git push origin master
+
+16. git log --oneline --graph --all > logs.txt
+
+17. git add logs.txt 201178.txt
+
+18. git commit -m "Final commit"
